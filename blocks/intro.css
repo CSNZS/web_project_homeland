@@ -1,5 +1,6 @@
 .intro {
-  padding: 20px;
+  max-width: 830px;
+  padding: 127px;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -36,8 +37,8 @@
   padding-top: 31.99px;
 }
 @media screen and (max-width: 768px) {
-  .intro__title {
-    font-size: 45px;
+  .intro {
+    padding: 24px 24px 0;
   }
 }
 @media screen and (max-width: 320px) {
